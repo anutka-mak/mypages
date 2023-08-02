@@ -1,0 +1,113 @@
+.nav{
+    padding: 0;
+    background-color: #daac00;
+    height: 121px;
+    width: 1440px;
+}
+.nav-links{
+    padding-top: 49px;
+    padding-left: 428px;
+    list-style: none;
+}
+.nav-links li {
+    font-family: 'Poppins';
+    font-size: 24px;
+    display: inline;
+    padding-right: 40px;
+    color: #fff;
+    float: left;
+}
+.nav-links a {
+    text-decoration: none;
+    float: left;
+}
+.logo {
+    padding-top: 33px;
+    padding-left: 140px;
+    float: left;
+}
+nav input {
+    float: left;
+    margin-top: -25px;
+    margin-left: 72px;
+}
+
+#button {
+    height: 52px;
+    width: 72px;
+    background-color: #00BEC9;
+    border: none;
+    margin-top: -25px;
+    background-image: url(/Images/Search\ Button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#site-search{
+    height: 52px;
+    width: 203px;
+    background-color: #FCC302;
+    border: none;
+}
+.img-search {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+input::placeholder {
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    
+}
+.firstSection {
+    background-color:#fcc302;
+    height: 780px;
+    width: 1440px;
+    border-top: 1px solid #fcc302;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 90px 0;
+}
+
+.flex-item:first-child {
+    margin-left: 100px; 
+}
+
+.flex-item:not(:first-child) {
+    margin-right: 141px;
+}
+
+h1 {
+    font-size: 67px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 40px; 
+}
+.firstSection button {
+    margin-right: 40px;
+    border-radius: 7px;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+    width: 183px;
+    height: 70px;
+}
+.contactUs {
+    background-color: #00BEC9;
+    border: none;
+}
+.ourService {
+    background-color:  #fcc302;
+    border: 4px solid #fff;
+}
