@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #daac00;
     height: 121px;
-    width: auto;
+    width: 100%;
 }
 .nav-links {
     padding-top: 49px;
@@ -65,7 +65,7 @@ input {
 .first-section {
     background-color:#fcc302;
     height: 780px;
-    width: auto;
+    width: 100%;
     border-top: 1px solid #fcc302;
 }
 .flex-container {
